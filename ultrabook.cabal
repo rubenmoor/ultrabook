@@ -26,7 +26,7 @@ library
 
 executable ultrabook
   main-is:             Main.hs
-  -- other-modules:
+  other-modules:       Api
   extensions:          OverloadedStrings
   build-depends:       base ^>=4.12.0.0
                      , ultrabook
